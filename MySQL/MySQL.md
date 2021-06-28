@@ -320,7 +320,7 @@ SELECT <select_list> FROM TableA A RIGHT JOIN TableB B ON A.Key = B.Key WHERE A.
 
 > 索引是什么？
 
-MySQL官方对索引的定义为：**索引（INDEX）是帮助MySQL高效获取数据的数据结果。**
+MySQL官方对索引的定义为：**索引（INDEX）是帮助MySQL高效获取数据的数据结构。**
 
 从而可以获得索引的本质：**索引是排好序的快速查找数据结构。**
 
